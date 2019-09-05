@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.2)
 #project(otus_4_master)
 project(print_ip VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 set(CMAKE_CXX_STANDARD 17)

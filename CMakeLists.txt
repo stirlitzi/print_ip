@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 
+
 add_executable(print_ip main.cpp printip.h)
 install(TARGETS print_ip RUNTIME DESTINATION bin)
 set(CPACK_GENERATOR DEB)

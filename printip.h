@@ -9,6 +9,7 @@
 
 
 
+
 // Is Integral
 template<class T>
 typename std::enable_if<std::is_integral<T>::value, T>::type
